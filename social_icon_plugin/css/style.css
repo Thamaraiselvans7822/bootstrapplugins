@@ -1,0 +1,50 @@
+/* Social media icons*/
+h2 {
+    color: #c7254e;
+    background-color: #fff;
+    padding: 8px;
+    text-align: center;
+    margin-bottom: 60px;
+    border-radius: 5px;
+}
+.background {
+  padding: 65px 0px 65px 0px;
+    background: #1e2024;
+}
+
+.background .social-media-icons a {
+  position: relative;
+  display: block;
+  float: left;
+  width: 28px;
+  height: 28px;
+  padding: 0 8px;
+  margin: 0 2.5px;
+  line-height: 28px;
+  font-size: 12px;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 3px;
+  color: #e5e5e5;
+  transition: width .5s ease;
+  overflow: hidden;
+}
+.background .social-media-icons a i {
+  display: inline-block;
+  float: left;
+  margin-right: 5px;
+  line-height: 28px;
+}
+.background .social-media-icons a span {
+  position: absolute;
+  visibility: hidden;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+}
+.background .social-media-icons a:hover {
+  background: #fff;
+  color: #ec4050;
+  width: 85px;
+}
+.background .social-media-icons a:hover span {
+  visibility: visible;
+}
